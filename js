@@ -14,3 +14,5 @@ let num3 = 450;
 let sum = num1 + num2 + num3;
 console.log("sum is:" + sum);
 console.log("this code is written by meerab waheed");
+//here is another code
+let number = 7;
