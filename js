@@ -21,3 +21,5 @@ if (number % 2 === 0){
 }else{
     console.log(number + "odd");
 }
+//here is the loop
+let fruits =["apple","mango","banana","peach"];
