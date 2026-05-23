@@ -23,3 +23,4 @@ if (number % 2 === 0){
 }
 //here is the loop
 let fruits =["apple","mango","banana","peach"];
+for (let i = 1; i < fruits.length; i++)
