@@ -16,3 +16,6 @@ console.log("sum is:" + sum);
 console.log("this code is written by meerab waheed");
 //here is another code
 let number = 7;
+if (number % 2 === 0){
+    console.log(number is: +"even");
+}
