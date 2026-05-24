@@ -2,7 +2,7 @@ let name = "balach";
 let name = "js";
 function greetUser(){
     console.log("hello," + name  + "!");
-     console.log("js," + name : + "!");
+     console.log("js," + name  + "!");
 }
 
 let age = 23;
