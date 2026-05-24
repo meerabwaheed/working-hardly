@@ -1,4 +1,4 @@
-let name = "meerab";
+let name = "balach";
 let name = "js";
 function greetUser(){
     console.log("hello," + name + "!");
