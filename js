@@ -54,7 +54,7 @@ class Student extends Person {
         this.marks = marks;
         console.log("............");
     }
-    // Calculate Grade
+    // Calculate Grade in code
     calculateGrade() {
 
         if (this.marks >= 100) {
