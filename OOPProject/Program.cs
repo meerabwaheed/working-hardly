@@ -197,7 +197,7 @@ class Program
 {
     static void Main()
     {
-        car c1 = new car();
+        Car c1 = new Car();
         c1.door();
         c1.drive();
 
