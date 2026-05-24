@@ -120,7 +120,7 @@ class Person
         Console.WriteLine("person info displaying");
     }
 }
-class student : Person
+class Student : Person
 {
     private int rollNumber;
     public void study()
