@@ -198,11 +198,11 @@ class Program
     static void Main()
     {
         Car c1 = new Car();
-        c1.door();
+        c1.start();
         c1.drive();
 
         Bike b1 = new Bike();
-        b1.helmet();
+        b1.start();
         b1.ride();
     }
 }
