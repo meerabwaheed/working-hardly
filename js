@@ -100,7 +100,7 @@ function addStudent(id, name, age, marks) {
     students.push(student);
 
     console.log(`${name} added successfully!\n`);
-    console.log("changes done")
+    console.log("done")
 }
 
 
