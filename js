@@ -126,6 +126,7 @@ function calculateAverage() {
     let average = total / students.length;
 
     console.log(`\nAverage Marks: ${average}\n`);
+    console.log("code changes done")
 }
 
 
