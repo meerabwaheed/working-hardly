@@ -52,7 +52,7 @@ class Student extends Person {
 
         this.id = id;
         this.marks = marks;
-        console.log("add.");
+        console.log("............");
     }
     // Calculate Grade
     calculateGrade() {
