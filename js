@@ -57,7 +57,7 @@ class Student extends Person {
     // Calculate Grade
     calculateGrade() {
 
-        if (this.marks >= 90) {
+        if (this.marks >= 100) {
             return "A+";
         }
         else if (this.marks >= 80) {
