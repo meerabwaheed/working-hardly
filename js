@@ -105,6 +105,15 @@ function addStudent(id, name, age, marks) {
 let name = "meerab waheed";
 age = 12;
 console.log(age+name); 
+// Show All Students
+function showAllStudents() {
+
+    console.log("\n===== ALL STUDENTS =====\n");
+
+    students.forEach((student) => {
+        student.displayStudent();
+    });
+}
 
 
 
