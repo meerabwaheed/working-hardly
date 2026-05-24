@@ -1,0 +1,15 @@
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\bin\Debug\net10.0\OOPProject.exe
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\bin\Debug\net10.0\OOPProject.deps.json
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\bin\Debug\net10.0\OOPProject.runtimeconfig.json
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\bin\Debug\net10.0\OOPProject.dll
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\bin\Debug\net10.0\OOPProject.pdb
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\obj\Debug\net10.0\OOPProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\obj\Debug\net10.0\OOPProject.AssemblyInfoInputs.cache
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\obj\Debug\net10.0\OOPProject.AssemblyInfo.cs
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\obj\Debug\net10.0\OOPProject.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\obj\Debug\net10.0\OOPProject.sourcelink.json
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\obj\Debug\net10.0\OOPProject.dll
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\obj\Debug\net10.0\refint\OOPProject.dll
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\obj\Debug\net10.0\OOPProject.pdb
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\obj\Debug\net10.0\OOPProject.genruntimeconfig.cache
+C:\Users\DELL\OneDrive\Desktop\all folders\working hard\OOPProject\obj\Debug\net10.0\ref\OOPProject.dll
