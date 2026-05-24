@@ -31,4 +31,16 @@ console.log("this code is written by maryam ");
 console.log("this code is written by hassan");
 console.log("this code is written by husaain");
 console.log("this code is written by ryyan");
+//class program
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    showDetails() {
+        console.log(`Name: ${this.name}`);
+        console.log(`Age: ${this.age}`);
+    }
+}
 
