@@ -9,7 +9,7 @@ let age = 21;
 const height = 5.4;
 //here is the simple addition program
 let num1 = 24;
-let num2 = 20;
+let num2 = 21;
 let num3 = 450;
 let sum = num1 + num2 + num3;
 console.log("sum is:" + sum);
