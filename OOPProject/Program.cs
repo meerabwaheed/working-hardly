@@ -123,7 +123,7 @@ class Person
 class Student : Person
 {
     private int rollNumber;
-    public void study()
+    public void Study()
     {
         Console.WriteLine("student is inherited by person");
     }
