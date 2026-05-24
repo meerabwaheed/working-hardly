@@ -85,7 +85,7 @@ class Student extends Person {
         console.log(`Marks: ${this.marks}`);
         console.log(`Grade: ${this.calculateGrade()}`);
 
-        console.log("nalaik students not get good grades");
+        console.log(".........................");
     }
 }
 
