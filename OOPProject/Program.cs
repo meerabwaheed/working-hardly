@@ -145,5 +145,6 @@ class Program
         s1.display();
         Teacher t1 = new Teacher();
         t1.Teach();
+        t1.display();
     }
 }
