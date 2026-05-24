@@ -5,7 +5,7 @@ function greetUser(){
      console.log("js," + name : + "!");
 }
 
-let age = 21;
+let age = 23;
 const height = 7.4;
 //here is the simple addition program
 let num1 = 24;
