@@ -27,10 +27,10 @@ for (let i = 1; i < fruits.length; i++){
     console.log(fruits[1]);
 }
 console.log("this code is written by ......");
-console.log("this code is written by maryam ");
-console.log("this code is written by hassan");
-console.log("this code is written by husaain");
-console.log("this code is written by ryyan");
+console.log("this code is written by meerab ");
+console.log("this code is written by adden");
+console.log("this code is written by balach");
+console.log("this code is written by aahil");
 //class program
 class Person {
     constructor(name, age) {
