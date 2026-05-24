@@ -41,6 +41,7 @@ class Person {
     showDetails() {
         console.log(`Name: ${this.name}`);
         console.log(`Age: ${this.age}`);
+        console.log("code is written by me")
     }
 }
 
