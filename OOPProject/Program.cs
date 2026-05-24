@@ -167,3 +167,13 @@ class Program
     //   +----------------+      +----------------+
     //   | + Drive()      |      | + Ride()       |
     //   +----------------+      +----------------+
+    using System;
+    class Vehicle
+{
+    private string Brand;
+    private int Speed;
+    public void start()
+    {
+        Console.WriteLine("the vehicle is the main class program")
+    }
+}
