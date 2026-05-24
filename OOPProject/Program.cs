@@ -112,30 +112,30 @@
 
 using System;
 class Person
-// {
-//     private string name;
-//     private int age;
-//     public void display()
-//     {
-//         Console.WriteLine("person info displaying");
-//     }
-// }
-// class Student : Person
-// {
-//     private int rollNumber;
-//     public void Study()
-//     {
-//         Console.WriteLine("student inherits from person");
-//     }
-// }
-// class Teacher : Person
-// {
-//     private string subject;
-//     public void Teach()
-//     {
-//         Console.WriteLine("teacher is inherited by person");
-//     }
-// }
+{
+    private string name;
+    private int age;
+    public void display()
+    {
+        Console.WriteLine("person info displaying");
+    }
+}
+class Student : Person
+{
+    private int rollNumber;
+    public void Study()
+    {
+        Console.WriteLine("student inherits from person");
+    }
+}
+class Teacher : Person
+{
+    private string subject;
+    public void Teach()
+    {
+        Console.WriteLine("teacher is inherited by person");
+    }
+}
 class Program
 {
     static void Main()
@@ -148,3 +148,22 @@ class Program
         t1.display();
     }
 }
+
+    //              +----------------------+
+    //              |       Vehicle        |
+    //              +----------------------+
+    //              | - brand : string     |
+    //              | - speed : int        |
+    //              +----------------------+
+    //              | + Start() : void     |
+    //              +----------------------+
+    //                         ▲
+    //            -------------------------
+    //            |                       |
+    //   +----------------+      +----------------+
+    //   |      Car       |      |      Bike      |
+    //   +----------------+      +----------------+
+    //   | - doors : int  |      | - helmet:bool  |
+    //   +----------------+      +----------------+
+    //   | + Drive()      |      | + Ride()       |
+    //   +----------------+      +----------------+
