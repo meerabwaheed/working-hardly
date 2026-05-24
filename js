@@ -44,4 +44,14 @@ class Person {
         console.log("code is written by me")
     }
 }
+// Child Class
+class Student extends Person {
+
+    constructor(id, name, age, marks) {
+        super(name, age);
+
+        this.id = id;
+        this.marks = marks;
+    }
+
 
