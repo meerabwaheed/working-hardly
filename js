@@ -66,11 +66,11 @@ class Student extends Person {
         else if (this.marks >= 80) {
             return "B";
         }
-        else if (this.marks >= 70) {
+        else if (this.marks >= 60) {
             return "C";
         }
         else {
-            return "Fail";
+            return "failure";
         }
     }
 
