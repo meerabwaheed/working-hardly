@@ -102,6 +102,8 @@ function addStudent(id, name, age, marks) {
     console.log(`${name} added successfully!\n`);
     console.log("done");
 }
+let name = "meerab waheed";
+
 
 
 
