@@ -125,6 +125,6 @@ class student : Person
     private int rollNumber;
     public void study()
     {
-        Console.WriteLine("student is inherited by person")
+        Console.WriteLine("student is inherited by person");
     }
 }
