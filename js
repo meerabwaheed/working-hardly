@@ -27,7 +27,7 @@ for (let i = 1; i < fruits.length; i++){
     console.log(fruits[1]);
 }
 console.log("this code is written by ......");
-console.log("this code is written by maryam api");
+console.log("this code is written by maryam ");
 console.log("this code is written by hassan");
 console.log("this code is written by husaain");
 console.log("this code is written by ryyan");
