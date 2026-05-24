@@ -143,6 +143,6 @@ class Program
         Student s1 = new Student();
         s1.Study();
         Teacher t1 = new Teacher();
-        t1.teach();
+        t1.Teach();
     }
 }
