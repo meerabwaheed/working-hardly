@@ -142,7 +142,7 @@ class Program
     {
         Student s1 = new Student();
         s1.study();
-        teacher t1 = new teacher();
+        Teacher t1 = new Teacher();
         t1.teach();
     }
 }
