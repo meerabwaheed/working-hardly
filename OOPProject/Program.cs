@@ -128,12 +128,12 @@ class Student : Person
         Console.WriteLine("student inherits from person");
     }
 }
-class Teacher : Person
+class Teacher:Person
 {
     private string subject;
     public void Teach()
     {
-        Console.WriteLine("teacher is inherited by person");
+        Console.WriteLine("teacher are inherited by person");
     }
 }
 class Program
