@@ -52,7 +52,7 @@ class Student extends Person {
 
         this.id = id;
         this.marks = marks;
-        console.log("......");
+        console.log("add.");
     }
     // Calculate Grade
     calculateGrade() {
@@ -85,7 +85,7 @@ class Student extends Person {
         console.log(`Marks: ${this.marks}`);
         console.log(`Grade: ${this.calculateGrade()}`);
 
-        console.log(".........................");
+        console.log(".......................");
     }
 }
 
@@ -103,7 +103,7 @@ function addStudent(id, name, age, marks) {
     console.log("done");
 }
 let name = "meerab waheed";
-age = 12;
+age = 14;
 console.log(age + name); 
 // Show All Students
 function showAllStudents() {
