@@ -54,6 +54,54 @@ class Student extends Person {
         this.marks = marks;
         console.log("......");
     }
+    // Calculate Grade
+    calculateGrade() {
+
+        if (this.marks >= 90) {
+            return "A+";
+        }
+        else if (this.marks >= 80) {
+            return "A";
+        }
+        else if (this.marks >= 70) {
+            return "B";
+        }
+        else if (this.marks >= 60) {
+            return "C";
+        }
+        else {
+            return "Fail";
+        }
+    }
+
+    // Display Student Information
+    displayStudent() {
+
+        console.log("================================");
+
+        console.log(`Student ID: ${this.id}`);
+        console.log(`Name: ${this.name}`);
+        console.log(`Age: ${this.age}`);
+        console.log(`Marks: ${this.marks}`);
+        console.log(`Grade: ${this.calculateGrade()}`);
+
+        console.log("================================");
+    }
+}
+
+// Student Array
+let students = [];
+
+// Add Student Function
+function addStudent(id, name, age, marks) {
+
+    let student = new Student(id, name, age, marks);
+
+    students.push(student);
+
+    console.log(`${name} added successfully!\n`);
+}
+
 
 
 
