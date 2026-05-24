@@ -69,7 +69,7 @@ class cat : Animal
     private string color;
     public void meow()
     {
-        Console.WriteLine("cat makes meow");
+        Console.WriteLine("cat making meow sound");
     }
 }
 class Program
@@ -83,7 +83,7 @@ class Program
         cat c = new cat();
         c.eat();
         c.meow();
-        // Console.WriteLine("this code is written by me")
+        Console.WriteLine("this code is written by me")
     }
 }
 
