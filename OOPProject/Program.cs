@@ -141,7 +141,7 @@ class Program
     static void Main()
     {
         Student s1 = new Student();
-        s1.study();
+        s1.Study();
         Teacher t1 = new Teacher();
         t1.teach();
     }
