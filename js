@@ -10,7 +10,7 @@ const height = 5.4;
 //here is the simple addition program
 let num1 = 24;
 let num2 = 21;
-let num3 = 450;
+let num3 = 234;
 let sum = num1 + num2 + num3;
 console.log("sum is:" + sum);
 console.log("this code is written by meerab waheed");
