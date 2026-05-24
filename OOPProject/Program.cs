@@ -136,3 +136,13 @@ class teacher : Person
         Console.WriteLine("teacher is inherited by person");
     }
 }
+class Program
+{
+    static void Main()
+    {
+        student s1 = new student();
+        s1.study();
+        teacher t1 = new teacher();
+        t1.teach();
+    }
+}
