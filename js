@@ -70,7 +70,7 @@ class Student extends Person {
             return "C";
         }
         else {
-            return "failure";
+            return "fail";
         }
     }
 
