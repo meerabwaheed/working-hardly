@@ -193,3 +193,16 @@ class Bike: Vehicle
         Console.WriteLine("bike is derived from parent class vehicle");
     }
 }
+class Program
+{
+    static void Main()
+    {
+        car c1 = new car();
+        c1.door();
+        c1.drive();
+
+        bike b1 = new bike();
+        b1.helmet();
+        b1.ride();
+    }
+}
