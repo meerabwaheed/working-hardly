@@ -149,24 +149,24 @@ class Program
     }
 }
 
-                 +----------------------+
-                 |       Vehicle        |
-                 +----------------------+
-                 | - brand : string     |
-                 | - speed : int        |
-                 +----------------------+
-                 | + Start() : void     |
-                 +----------------------+
-                            ▲
-               -------------------------
-               |                       |
-      +----------------+      +----------------+
-      |      Car       |      |      Bike      |
-      +----------------+      +----------------+
-      | - doors : int  |      | - helmet:bool  |
-      +----------------+      +----------------+
-      | + Drive()      |      | + Ride()       |
-      +----------------+      +----------------+
+    //              +----------------------+
+    //              |       Vehicle        |
+    //              +----------------------+
+    //              | - brand : string     |
+    //              | - speed : int        |
+    //              +----------------------+
+    //              | + Start() : void     |
+    //              +----------------------+
+    //                         ▲
+    //            -------------------------
+    //            |                       |
+    //   +----------------+      +----------------+
+    //   |      Car       |      |      Bike      |
+    //   +----------------+      +----------------+
+    //   | - doors : int  |      | - helmet:bool  |
+    //   +----------------+      +----------------+
+    //   | + Drive()      |      | + Ride()       |
+    //   +----------------+      +----------------+
     using System;
     class Vehicle
 {
@@ -175,5 +175,13 @@ class Program
     public void start()
     {
         Console.WriteLine("the vehicle is the main class program");
+    }
+}
+class Car : Vehicle
+{
+    private int door;
+    public void drive()
+    {
+        Console.WriteLine("car is inherited from vehicle");
     }
 }
