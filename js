@@ -24,7 +24,7 @@ if (number % 2 === 0){
 //here is the loop
 let fruits =["apple","mango","banana","peach"];
 for (let i = 1; i < fruits.length; i++){
-    console.log(fruits[1]);
+    console.log(fruits[2]);
 }
 console.log("this code is written by ......");
 console.log("this code is written by meerab ");
