@@ -6,7 +6,7 @@ function greetUser(){
 }
 
 let age = 21;
-const height = 5.4;
+const height = 7.4;
 //here is the simple addition program
 let num1 = 24;
 let num2 = 21;
