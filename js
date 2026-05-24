@@ -117,7 +117,7 @@ function showAllStudents() {
 // Calculate Average Marks
 function calculateAverage() {
 
-    let total = 10;
+    let total = 20;
 
     for (let student of students) {
         total += student.marks;
