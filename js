@@ -77,7 +77,7 @@ class Student extends Person {
     // Display Student Information
     displayStudent() {
 
-        console.log("================================");
+        console.log("student achy bachy display");
 
         console.log(`Student ID: ${this.id}`);
         console.log(`Name: ${this.name}`);
