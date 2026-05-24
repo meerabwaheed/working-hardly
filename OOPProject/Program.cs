@@ -53,7 +53,7 @@ class Animal
     private string name;
     public void eat()
     {
-        Console.WriteLine("animal is eating");
+        Console.WriteLine("animals are eating");
     }
 }
 class dog: Animal
