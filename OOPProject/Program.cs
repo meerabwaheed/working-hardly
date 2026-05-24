@@ -201,7 +201,7 @@ class Program
         c1.door();
         c1.drive();
 
-        bike b1 = new bike();
+        Bike b1 = new Bike();
         b1.helmet();
         b1.ride();
     }
