@@ -185,3 +185,11 @@ class Car : Vehicle
         Console.WriteLine("car is inherited from vehicle");
     }
 }
+class Bike: Vehicle
+{
+    private bool helmet;
+    public void ride()
+    {
+        Console.WriteLine("bike is derived from parent class vehicle");
+    }
+}
