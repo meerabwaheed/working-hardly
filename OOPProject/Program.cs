@@ -49,6 +49,42 @@
 
 using System;
 class Animal
+{
+    private string name;
+    public void eat()
+    {
+        Console.WriteLine("animal is eating");
+    }
+}
+class dog: Animal
+{
+    private string breed;
+    public void bark()
+    {
+        Console.WriteLine("dog is barking");
+    }
+}
+class cat : Animal
+{
+    private string color;
+    public void meow()
+    {
+        Console.WriteLine("cat makes meow");
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        dog d = new dog();
+        d.bark();
+        d.eat();
+
+        cat c = new cat();
+        c.eat();
+        c.meow();
+    }
+}
 
 
 
