@@ -60,7 +60,7 @@ class Student extends Person {
         if (this.marks >= 100) {
             return "A+";
         }
-        else if (this.marks >= 80) {
+        else if (this.marks >= 90) {
             return "A";
         }
         else if (this.marks >= 70) {
