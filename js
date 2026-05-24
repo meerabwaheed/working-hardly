@@ -108,7 +108,7 @@ console.log(age+name);
 // Show All Students
 function showAllStudents() {
 
-    console.log("\n===== ALL STUDENTS =====\n");
+    console.log("STUDENTS ");
 
     students.forEach((student) => {
         student.displayStudent();
