@@ -131,7 +131,7 @@ class Student : Person
 class Teacher : Person
 {
     private string subject;
-    public void teach()
+    public void Teach()
     {
         Console.WriteLine("teacher is inherited by person");
     }
