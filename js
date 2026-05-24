@@ -114,6 +114,20 @@ function showAllStudents() {
         student.displayStudent();
     });
 }
+// Calculate Average Marks
+function calculateAverage() {
+
+    let total = 0;
+
+    for (let student of students) {
+        total += student.marks;
+    }
+
+    let average = total / students.length;
+
+    console.log(`\nAverage Marks: ${average}\n`);
+}
+
 
 
 
