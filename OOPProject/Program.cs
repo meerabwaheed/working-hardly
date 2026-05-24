@@ -140,7 +140,7 @@ class Program
 {
     static void Main()
     {
-        student s1 = new student();
+        Student s1 = new Student();
         s1.study();
         teacher t1 = new teacher();
         t1.teach();
