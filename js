@@ -103,6 +103,8 @@ function addStudent(id, name, age, marks) {
     console.log("done");
 }
 let name = "meerab waheed";
+age = 12;
+console.log(age+name); 
 
 
 
