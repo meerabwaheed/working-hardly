@@ -133,6 +133,6 @@ class teacher : Person
     private string subject;
     public void teach()
     {
-        Console.WriteLine("teacher is inherited by person")
+        Console.WriteLine("teacher is inherited by person");
     }
 }
