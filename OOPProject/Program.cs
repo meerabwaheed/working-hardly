@@ -228,29 +228,85 @@
 //         Association
 //Student -----------------> Book
 
+//+----------------------+
+//| Book                 |
+//+----------------------+
+//| -title : string      |
+//| - author : string    |
+//| - price : double     |
+//+----------------------+
+//| + ShowBook()         |
+//+----------------------+
+
+//+----------------------+
+//|      Student         |
+//+----------------------+
+//| - name : string      |
+//| - rollNo : int       |
+//+----------------------+
+//| + BorrowBook()       |
+//+----------------------+
+
+//         Association
+//Student -----------------> Book
+
 using System;
 using System.ComponentModel.DataAnnotations;
 class Book
 { 
+    //attributes
     private string title;
     private string author;
     private double price;
 
-    public Book(string title,string author,double price)
+    public Book(string title, string author,double price)
+
     {
         this.title = title;
         this.author = author;
         this.price = price;
-
-      
     }
     public void showBook()
     {
         Console.WriteLine("book title" + title);
         Console.WriteLine("book author" + author);
         Console.WriteLine("book price" + price);
-        
     }
 
 }
+class Student 
+{
+    private string name;
+    private int rollNo;
+
+    public Student(string name, int rollNo)
+    {
+        this.name = name;
+        this.rollNo = rollNo;
+    }
+    public void BorrowBook(Book b)
+    {
+        Console.WriteLine(name + "borrow a book");
+        b.showBook();
+    
+    }
+}
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Creating Book Object
+        Book b1 = new Book("C# Programming", "Ali Raza", 2500);
+
+        // Creating Student Object
+        Student s1 = new Student("Meerab", 19);
+
+        // Borrow Book
+        s1.BorrowBook(b1);
+    }
+}
+
+
+
+
 
