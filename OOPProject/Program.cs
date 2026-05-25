@@ -206,3 +206,40 @@ class Program
         b1.ride();
     }
 }
+//+----------------------+
+//| Book                 |
+//+----------------------+
+//| -title : string      |
+//| - author : string    |
+//| - price : double     |
+//+----------------------+
+//| + ShowBook()         |
+//+----------------------+
+
+//+----------------------+
+//|      Student         |
+//+----------------------+
+//| - name : string      |
+//| - rollNo : int       |
+//+----------------------+
+//| + BorrowBook()       |
+//+----------------------+
+
+//         Association
+//Student -----------------> Book
+
+using System;
+using System.ComponentModel.DataAnnotations;
+class Book
+{ 
+    private string title;
+    private string author;
+    private double price;
+
+    public void ShowBook()
+    {
+        Console.WriteLine("this is the librry mangement system");
+    }
+
+}
+
