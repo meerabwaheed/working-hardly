@@ -236,9 +236,20 @@ class Book
     private string author;
     private double price;
 
-    public void ShowBook()
+    public Book(string title,string author,double price)
     {
-        Console.WriteLine("this is the librry mangement system");
+        this.title = title;
+        this.author = author;
+        this.price = price;
+
+      
+    }
+    public void showBook()
+    {
+        Console.WriteLine("book title" + title);
+        Console.WriteLine("book author" + author);
+        Console.WriteLine("book price" + price);
+        
     }
 
 }
