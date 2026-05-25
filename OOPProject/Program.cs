@@ -110,102 +110,102 @@
 // | + Study() : void     |     | + Teach() : void    |
 // +----------------------+     +----------------------+
 
-using System;
-class Person
-{
-    private string name;
-    private int age;
-    public void display()
-    {
-        Console.WriteLine("person info displaying");
-    }
-}
-class Student : Person
-{
-    private int rollNumber;
-    public void Study()
-    {
-        Console.WriteLine("student inherits from person");
-    }
-}
-class Teacher:Person
-{
-    private string subject;
-    public void Teach()
-    {
-        Console.WriteLine("teacher are inherited by person");
-    }
-}
-class Program
-{
-    static void Main()
-    {
-        Student s1 = new Student();
-        s1.Study();
-        s1.display();
-        Teacher t1 = new Teacher();
-        t1.Teach();
-        t1.display();
-    }
-}
+// using System;
+// class Person
+// {
+//     private string name;
+//     private int age;
+//     public void display()
+//     {
+//         Console.WriteLine("person info displaying");
+//     }
+// }
+// class Student : Person
+// {
+//     private int rollNumber;
+//     public void Study()
+//     {
+//         Console.WriteLine("student inherits from person");
+//     }
+// }
+// class Teacher:Person
+// {
+//     private string subject;
+//     public void Teach()
+//     {
+//         Console.WriteLine("teacher are inherited by person");
+//     }
+// }
+// class Program
+// {
+//     static void Main()
+//     {
+//         Student s1 = new Student();
+//         s1.Study();
+//         s1.display();
+//         Teacher t1 = new Teacher();
+//         t1.Teach();
+//         t1.display();
+//     }
+// }
 
-    //              +----------------------+
-    //              |       Vehicle        |
-    //              +----------------------+
-    //              | - brand : string     |
-    //              | - speed : int        |
-    //              +----------------------+
-    //              | + Start() : void     |
-    //              +----------------------+
-    //                         ▲
-    //            -------------------------
-    //            |                       |
-    //   +----------------+      +----------------+
-    //   |      Car       |      |      Bike      |
-    //   +----------------+      +----------------+
-    //   | - doors : int  |      | - helmet:bool  |
-    //   +----------------+      +----------------+
-    //   | + Drive()      |      | + Ride()       |
-    //   +----------------+      +----------------+
-    using System;
-    class Vehicle
-{
-    private string Brand;
-    private int Speed;
-    public void start()
-    {
-        Console.WriteLine("the vehicle is the main class program");
-    }
-}
-class Car : Vehicle
-{
-    private int door;
-    public void drive()
-    {
-        Console.WriteLine("car is inherited from vehicle");
-    }
-}
-class Bike: Vehicle
-{
-    private bool helmet;
-    public void ride()
-    {
-        Console.WriteLine("bike is derived from parent class vehicle");
-    }
-}
-class Program
-{
-    static void Main()
-    {
-        Car c1 = new Car();
-        c1.start();
-        c1.drive();
+//     //              +----------------------+
+//     //              |       Vehicle        |
+//     //              +----------------------+
+//     //              | - brand : string     |
+//     //              | - speed : int        |
+//     //              +----------------------+
+//     //              | + Start() : void     |
+//     //              +----------------------+
+//     //                         ▲
+//     //            -------------------------
+//     //            |                       |
+//     //   +----------------+      +----------------+
+//     //   |      Car       |      |      Bike      |
+//     //   +----------------+      +----------------+
+//     //   | - doors : int  |      | - helmet:bool  |
+//     //   +----------------+      +----------------+
+//     //   | + Drive()      |      | + Ride()       |
+//     //   +----------------+      +----------------+
+//     using System;
+//     class Vehicle
+// {
+//     private string Brand;
+//     private int Speed;
+//     public void start()
+//     {
+//         Console.WriteLine("the vehicle is the main class program");
+//     }
+// }
+// class Car : Vehicle
+// {
+//     private int door;
+//     public void drive()
+//     {
+//         Console.WriteLine("car is inherited from vehicle");
+//     }
+// }
+// class Bike: Vehicle
+// {
+//     private bool helmet;
+//     public void ride()
+//     {
+//         Console.WriteLine("bike is derived from parent class vehicle");
+//     }
+// }
+// class Program
+// {
+//     static void Main()
+//     {
+//         Car c1 = new Car();
+//         c1.start();
+//         c1.drive();
 
-        Bike b1 = new Bike();
-        b1.start();
-        b1.ride();
-    }
-}
+//         Bike b1 = new Bike();
+//         b1.start();
+//         b1.ride();
+//     }
+// }
 //+----------------------+
 //| Book                 |
 //+----------------------+
