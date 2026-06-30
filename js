@@ -2,8 +2,8 @@ let name = "balach";
 let name = "js";
 
 
-let age = 23;
-const height = 7.4;
+let age = 73;
+const height = 77.4;
 //here is the simple addition program
 let num1 = 24;
 let num2 = 21;
