@@ -1,1 +1,14 @@
-Here will be the content
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int[] numbers = { 10, 20, 30, 40, 50 };
+
+        foreach (int num in numbers)
+        {
+            Console.WriteLine(num);
+        }
+    }
+}
